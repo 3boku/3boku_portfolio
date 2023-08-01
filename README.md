@@ -22,7 +22,7 @@
  ┃ ┃ ┃ ┗ 📜write.html - 글 작성 페이지 HTML 파일
  ┃ ┃ ┗ 📂public
  ┃ ┃ ┃ ┗ 📜global.css
- ┗ 📜README.md - 프로젝트의 README 파일
+ ┗ ┗ 📜README.md - 프로젝트의 README 파일
 ```
 
 ## 사용 예제
@@ -54,6 +54,8 @@ go run main.go
 
 -   0.0.1
     -   작업 진행 중
+-   0.0.2
+    -   메인페이지 밑 애니메이션 작업
 
 ## 정보
 
