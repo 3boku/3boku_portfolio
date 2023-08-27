@@ -59,7 +59,7 @@ go run main.go
 
 ## 정보
 
-이름 – [@트위터 주소](https://twitter.com/3boku__) – 이메일주소 - <a24746440@gmail.com> - instagram - [@인스타그램 주소](https://www.instagram.com/phenomenon._.7/)
+이름– [@트위터 주소](https://twitter.com/3boku__) – 이메일주소 - <a24746440@gmail.com> - instagram - [@인스타그램 주소](https://www.instagram.com/phenomenon._.7/)
 
 <!-- Markdown link & img dfn's -->
 
