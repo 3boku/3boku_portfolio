@@ -1,447 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>sambok's portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="DanielKimResume" />
+        <meta name="keywords" content="global, template, html, sass, jquery" />
+        <meta name="author" content="Bucky Maler" />
         <link
             href="assets/img/정삼복 로고.png"
             rel="shortcut icon"
             type="image/x-icon"
         />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="HTML5 website template" />
-        <meta name="keywords" content="global, template, html, sass, jquery" />
-        <meta name="author" content="Bucky Maler" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="../routes/assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
+        <title>sambok's portfolio</title>
     </head>
     <body>
-        <!-- notification for small viewports and landscape oriented smartphones -->
-        <div class="device-notification">
-            <a class="device-notification--logo" href="#0">
-                <img src="assets/img/logo.png" alt="Global" />
-                <p>정삼복</p>
-            </a>
-            <p class="device-notification--message">
-                정삼복의 포트폴리오 사이트 입니다.
-            </p>
-        </div>
-
-        <div class="perspective effect-rotate-left">
-            <div class="container">
-                <div class="outer-nav--return"></div>
-                <div id="viewport" class="l-viewport">
-                    <div class="l-wrapper">
-                        <header class="header">
-                            <a class="header--logo" href="#0">
-                                <p>Sambok's Portfolio</p>
-                            </a>
-                            <button class="header--cta cta">Contact Me</button>
-                            <div class="header--nav-toggle">
-                                <span></span>
-                            </div>
-                        </header>
-                        <nav class="l-side-nav">
-                            <ul class="side-nav">
-                                <li class="is-active"><span>Home</span></li>
-                                <li><span>Works</span></li>
-                                <li><span>Actiivites</span></li>
-                                <li><span>Stacks</span></li>
-                                <li><span>Contact</span></li>
-                            </ul>
-                        </nav>
-                        <ul class="l-main-content main-content">
-                            <li class="l-section section section--is-active">
-                                <div class="intro">
-                                    <div class="intro--banner">
-                                        <h1>
-                                            Hi There!<br />はじめまして！<br />
-
-                                            정삼복 <br />혹은
-                                            <br />정현서입니다!
-                                        </h1>
-                                        <button class="cta">
-                                            Contact Me
-                                            <svg
-                                                version="1.1"
-                                                id="Layer_1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                viewBox="0 0 150 118"
-                                                style="
-                                                    enable-background: new 0 0
-                                                        150 118;
-                                                "
-                                                xml:space="preserve"
-                                            >
-                                                <g
-                                                    transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                                                >
-                                                    <path
-                                                        d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
-                                                    />
-                                                </g>
-                                            </svg>
-                                            <span class="btn-background"></span>
-                                        </button>
-                                        <img
-                                            src="assets/img/sambok-profile.png"
-                                            alt="Welcome"
-                                        />
-                                    </div>
-                                    <div class="intro--options">
-                                        <a href="https://github.com/SRHS-SPAM">
-                                            <h3>SPAM Organization</h3>
-                                            <p>
-                                                교내 전공 자율동아리
-                                                <br />
-                                                SPAM(Study Programming Algorithm
-                                                Myself)의<br />
-                                                Github Organization입니다.
-                                            </p>
-                                        </a>
-                                        <a href="https://ksdc.io">
-                                            <h3>KSDC Organization</h3>
-                                            <p>
-                                                제가 Lead Organizer로 있는<br />
-                                                KSDC(Korea Student<br />
-                                                Developer Club)의<br />
-                                                웹사이트 입니다.
-                                            </p>
-                                        </a>
-                                        <a href="https://github.com/H-j-Studio">
-                                            <h3>HJ Studio Organization</h3>
-                                            <p>
-                                                제가 대표로 있는 게임개발팀
-                                                <br />HJ Studio의 <br />
-                                                Github Organization입니다.
-                                            </p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="l-section section">
-                                <div class="work">
-                                    <h2>작업물을 확인하세요.</h2>
-                                    <div class="work--lockup">
-                                        <ul class="slider">
-                                            <!-- <li
-                                                class="slider--item slider--item-left"
-                                            >
-                                                <a href="#0">
-                                                    <div
-                                                        class="slider--item-image"
-                                                    >
-                                                        <img
-                                                            src="assets/img/sambok-profile.png"
-                                                            alt="Victory"
-                                                        />
-                                                    </div>
-                                                    <p
-                                                        class="slider--item-title"
-                                                    >
-                                                        sambok
-                                                    </p>
-                                                    <p
-                                                        class="slider--item-description"
-                                                    >
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipisicing elit sed do.
-                                                    </p>
-                                                </a>
-                                            </li> -->
-                                            <li
-                                                class="slider--item slider--item-left"
-                                            >
-                                                <a href="#0">
-                                                    <div
-                                                        class="slider--item-image"
-                                                    >
-                                                        <img
-                                                            src="assets/img/work-victory.jpg"
-                                                            alt="Victory"
-                                                        />
-                                                    </div>
-                                                    <p
-                                                        class="slider--item-title"
-                                                    >
-                                                        Rache
-                                                    </p>
-                                                    <p
-                                                        class="slider--item-description"
-                                                    >
-                                                        HJ Studio에서 개발하고,
-                                                        서비스 하고있는
-                                                        로그라이크
-                                                        게임입니다.<br />
-                                                        PM, UI개발을 맡았습니다.
-                                                    </p>
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="slider--item slider--item-center"
-                                            >
-                                                <a href="#">
-                                                    <div
-                                                        class="slider--item-image"
-                                                    >
-                                                        <img
-                                                            src="assets/img/speedat.png"
-                                                            alt="Metiew and Smith"
-                                                        />
-                                                    </div>
-                                                    <p
-                                                        class="slider--item-title"
-                                                    >
-                                                        SPAM-Speedat
-                                                    </p>
-                                                    <p
-                                                        class="slider--item-description"
-                                                    >
-                                                        SPAM에서 개발하고
-                                                        서비스하는 서울로봇고
-                                                        교내 커뮤니티
-                                                        스피닷입니다. PM,
-                                                        Backend개발,
-                                                        DevOps개발을 맡아
-                                                        진행하였습니다
-                                                    </p>
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="slider--item slider--item-right"
-                                            >
-                                                <a href="#0">
-                                                    <div
-                                                        class="slider--item-image"
-                                                    >
-                                                        <img
-                                                            src="assets/img/work-alex-nowak.jpg"
-                                                            alt="Alex Nowak"
-                                                        />
-                                                    </div>
-                                                    <p
-                                                        class="slider--item-title"
-                                                    >
-                                                        오재희 웹사이트
-                                                    </p>
-                                                    <p
-                                                        class="slider--item-description"
-                                                    >
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipisicing elit sed do.
-                                                    </p>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <div class="slider--prev">
-                                            <svg
-                                                version="1.1"
-                                                id="Layer_1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                viewBox="0 0 150 118"
-                                                style="
-                                                    enable-background: new 0 0
-                                                        150 118;
-                                                "
-                                                xml:space="preserve"
-                                            >
-                                                <g
-                                                    transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                                                >
-                                                    <path
-                                                        d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"
-                                                    />
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="slider--next">
-                                            <svg
-                                                version="1.1"
-                                                id="Layer_1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                viewBox="0 0 150 118"
-                                                style="
-                                                    enable-background: new 0 0
-                                                        150 118;
-                                                "
-                                                xml:space="preserve"
-                                            >
-                                                <g
-                                                    transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                                                >
-                                                    <path
-                                                        d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
-                                                    />
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="l-section section">
-                                <div class="about">
-                                    <div class="about--banner">
-                                        <h2>
-                                            활동하고 있는 <br/>
-                                            커뮤니티 입니다<br/>
-                                            주로 GDG에서<br />
-                                            활동합니다!
-                                        </h2>
-                                        <a href="#0"
-                                            >컨퍼런스 내용 정리 사이트
-                                            <span>
-                                                <svg
-                                                    version="1.1"
-                                                    id="Layer_1"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px"
-                                                    y="0px"
-                                                    viewBox="0 0 150 118"
-                                                    style="
-                                                        enable-background: new 0
-                                                            0 150 118;
-                                                    "
-                                                    xml:space="preserve"
-                                                >
-                                                    <g
-                                                        transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                                                    >
-                                                        <path
-                                                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
-                                                        />
-                                                    </g>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                    <div class="about--options">
-                                        <a
-                                            href="https://danielkim88.notion.site/danielkim88/GDG-Incheon-Songdo-with-Flutter-Songdo-3d00a1dbf75949cdaf8ce12665c75750"
-                                        >
-                                            <h3>GDG Incheon & Songdo</h3>
-                                        </a>
-                                        <a
-                                            href="https://www.facebook.com/groups/golangko/?locale=ko_KR"
-                                        >
-                                            <h3>GDG GolangKroea</h3>
-                                        </a>
-                                        <a href="#0">
-                                            <h3>Flutter Songdo</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="l-section section">
-                                <div class="contact">
-                                    <div class="contact--lockup">
-                                        <div class="modal">
-                                            <div class="modal--information">
-                                                <p>
-                                                    저는 초등학교 5학년때 부터 개발을<br />
-                                                    시작해서 C, C#, Java, Python<br />
-                                                    dart, Flutter, Unity, HTML<br />
-                                                    CSS, JS, Node JS, Go 등의 <br />
-                                                    언어로 개발해보았고, Go와 Swift를<br />
-                                                    매인으로 개발을 하고 있습니다. <br />
-                                                    대부분의 프로젝트에서 PM혹은 <br />
-                                                    Backend, DevOps개발을 <br />
-                                                    담당하고 있습니다. <br />
-                                                    제가 했던 프로젝트나 더 많은 <br />
-                                                    개발정보는 밑에 버튼을 눌러 <br />
-                                                    Github를 참조해 주세요.
-                                                </p>
-                                                </p>
-                                            </div>
-                                            <ul class="modal--options">
-                                                <li>
-                                                    <a href="https://github.com/3boku">Github</a>
-                                                </li>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="l-section section">
-                                <div class="hire">
-                                    <h2>언제든 편하게 연락주세요</h2>
-                                    <!-- checkout formspree.io for easy form setup -->
-                                    <form class="work-request">
-                                        <div class="work-request--options">
-                                            <ul style="list-style: none; align-items: center;">
-                                                <li>
-                                                    <a
-                                                        href="mailto:a24746440@gmail.com"
-                                                        ><img
-                                                    src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-                                                /></a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="https://github.com/3boku"
-                                                        ><img 
-                                                    src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"
-                                                /></a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="https://instagram.com/phenomenon._.7"
-                                                        ><img 
-                                                    src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-                                                /></a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="https://discord.com/users/406398616643698689"
-                                                        ><img 
-                                                    src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-                                                /></a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    phone num: 010-2122-0739
-                                                </li>
-                                            </ul>
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="wrap">
+            <div class="navbar container">
+                <a id="hi" href="https://jasonkimdeveloper.github.io//resume">
+                    <p id="dynamic" class="lg-text"></p>
+                    <p class="sm-text"></p>
+                </a>
+                <ul class="navbar-ul"></ul>
             </div>
-            <ul class="outer-nav">
-                <li class="is-active">Home</li>
-                <li>Works</li>
-                <li>Acitivites</li>
-                <li>Stack</li>
-                <li>Contact</li>
-            </ul>
+            <hr />
+            <div class="container content">
+                <h2>About Me</h2>
+                <p>
+                    안녕하세요! 저는 초등학교 5학년 C언어를 시작으로, 정말
+                    다양한 언어를 배우고, 공부하고 있는 백엔드, 데브옵스 개발자
+                    그리고 PM 정현서입니다.
+                </p>
+                <p>
+                    저는 학생회, 밴드부 등등 여러가지 학교내에 활동과 교내
+                    자율동아리 크레로봇, 스팸에서 활동하였습니다. 그리고
+                    KSDC라는 커뮤니티를 운영하면서 대한믹국의 학생 개발자들의
+                    교류 환경을 만들어 가고 있습니다.
+                </p>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Front-End(HTML, CSS, JS)</li>
+                    <li>Back-End(Go-Gin, NodeJS-Express)</li>
+                    <li>App(Flutter, Swift)</li>
+                    <li>
+                        Cloud Computing(MS-Azure, AWS, GCP, Vercel, Firebase)
+                    </li>
+                    <li>Machine Learning(Python)</li>
+                    <li>Algorithm(C, C++, Python, Java, Go)</li>
+                </ul>
+
+                <h2>Projects</h2>
+                <ul>
+                    <li>Speedat(서울로봇고등학교 교내 커뮤니티)</li>
+                    <ul>
+                        <li>PM, Back-End</li>
+                        <li>
+                            교내 자율동아리 SPAM에서 개발한 서울로봇고등학교
+                            교내 커뮤니티 스피닷입니다.
+                        </li>
+                        <li><a href="https://www.speedat.site/">Web</a></li>
+                        <li>
+                            <a
+                                href="https://github.com/SRHS-SPAM/SRH-Community-Web"
+                                >GitHub Repositories</a
+                            >
+                        </li>
+                    </ul>
+                    <br />
+                    <li>찐따봇(배포 종료)</li>
+                    <ul>
+                        <li>Main Devloper</li>
+                        <li>
+                            중학교 3학년 시절 교내 디스코드 서버에서 사용했던
+                            디스코드봇 찐따봇 입니다.
+                        </li>
+                        <li>
+                            <a href="https://github.com/3boku/jjindda-bot"
+                                >GitHub Repositories</a
+                            >
+                        </li>
+                    </ul>
+                    <br />
+                    <li>디지털 새싹 Doit Web프로젝트</li>
+                    <ul>
+                        <li>Back-End, DevOps</li>
+                        <li>
+                            Elice에서 진행했던 디지털 새싹 Do it HTML, CSS,
+                            JS특강에서 진행했던 프로젝트 사이트입니다.
+                        </li>
+                        <li><a href="http://srh-doit.com/">Web</a></li>
+                        <li>
+                            <a href="https://github.com/SRH-doit/doit-project"
+                                >GitHub Repositories</a
+                            >
+                        </li>
+                    </ul>
+                </ul>
+                <h2>Career</h2>
+                <ul>
+                    <li>SPAM 차장, PM(2023.03~)</li>
+                    <li>HJ Studio 대표(2022.04~)</li>
+                    <li>KSDC 리드 오거나이저(2023.08~)</li>
+                </ul>
+                <h2>Certificationr</h2>
+                <ul>
+                    <li>ITQ 아래한글 (2022.11)</li>
+                    <li>웹디자인 기능사 (2023.06)</li>
+                </ul>
+                <h2>Activites</h2>
+            </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
-            window.jQuery ||
-                document.write(
-                    '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
-                );
+            let target = document.querySelector("#dynamic");
+
+            function randomString() {
+                let stringArr = [
+                    "Hi There!👋",
+                    "はじめまして！👋",
+                    "안녕하세요!👋",
+                ];
+                let selectString =
+                    stringArr[Math.floor(Math.random() * stringArr.length)];
+                let selectStringArr = selectString.split("");
+
+                return selectStringArr;
+            }
+
+            //타이핑 리셋
+            function resetTyping() {
+                target.textContent = "";
+                dynamic(randomString());
+            }
+
+            //텍스트 한글자 씩 출력 함수
+            function dynamic(randomArr) {
+                if (randomArr.length > 0) {
+                    target.textContent += randomArr.shift();
+                    setTimeout(function () {
+                        dynamic(randomArr);
+                    }, 80);
+                } else {
+                    setTimeout(resetTyping, 3000);
+                }
+            }
+
+            //randomString 옆에 소괄호 까먹지 말기(없으면 작동 안됨)
+            dynamic(randomString());
+            //커서 깜빡임 효과
+            function blink() {
+                target.classList.toggle("active");
+            }
+            setInterval(blink, 500);
+
+            const getToken = () => {
+                let cookieName = document.cookie
+                    .split("; ")
+                    .find((row) => row.startsWith("token="))
+                    ?.split("=")[1];
+                return cookieName;
+            };
+
+            const updateLoginButton = (isLoggedIn) => {
+                const navBtn = document.querySelector("#login-btn");
+                const link = navBtn.querySelector("a");
+
+                if (isLoggedIn) {
+                    link.href = "/auth/api/logout";
+                    link.textContent = "logout";
+                } else {
+                    link.href = "/auth/login";
+                    link.textContent = "login";
+                }
+            };
+
+            const getName = (token) => {
+                const target = document.querySelector(".sm-text");
+
+                if (!token) {
+                    target.textContent = "Do IT! WEB Project | anonymous";
+                    return;
+                }
+                const base64 = token
+                    .split(".")[1]
+                    .replace(/-/g, "+")
+                    .replace(/_/g, "/");
+                const name = JSON.parse(
+                    decodeURIComponent(escape(window.atob(base64)))
+                ).name;
+                target.textContent = `Do IT! WEB Project | ${
+                    name ? name : "anonymous"
+                }`;
+            };
+
+            window.onload = function () {
+                const token = getToken();
+                updateLoginButton(!!token);
+                getName(token);
+            };
+
+            const link = document.querySelector("a");
         </script>
-        <script src="assets/js/functions-min.js"></script>
     </body>
 </html>
